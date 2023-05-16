@@ -117,7 +117,7 @@ export const Navbar = () => {
           <NavbarLogo src={logoImg}></NavbarLogo>
         </Box>
         <NavbarLinksBox>
-          <NavLink variant="body2">Home</NavLink>
+          <NavLink variant="body2" >Home</NavLink>
           <NavLink variant="body2">Features</NavLink>
           <NavLink variant="body2">Services</NavLink>
           <NavLink variant="body2">Listed</NavLink>

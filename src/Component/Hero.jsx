@@ -17,6 +17,7 @@ const Hero = () => {
             flexDirection: 'column-reverse',
             alignItems: 'center',
             textAlign: 'center',
+            gap: theme.spacing(0),
         }
     }))
 
@@ -34,7 +35,7 @@ const Hero = () => {
             <Container>
                 <Navbar/>
                 <CustomBox>
-                    <Box sx={{ flex: 1 }}>
+                    <Box sx={{ flex: 1, mb:5 }}>
                         <Typography variant='body2' sx={{
                             fontSize: '18px',
                             color: '#687690',

@@ -32,4 +32,32 @@ export const properties = [
     bathrooms: 3,
     space: 3000,
   },
+  {
+    id: "4",
+    img: house2,
+    price: "35000",
+    address: "Campbell Road, Halifax, Nova Scotia",
+    bedrooms: 2,
+    bathrooms: 2,
+    space: 2000,
+  },
+
+  {
+    id: "5",
+    img: house3,
+    price: "38000",
+    address: "2 Canlish Rd Toronto, Ontario",
+    bedrooms: 3,
+    bathrooms: 2,
+    space: 2300,
+  },
+  {
+    id: "6",
+    img: house1,
+    price: "47000",
+    address: "Jasper Avenue, Edmonton, Alberta",
+    bedrooms: 4,
+    bathrooms: 3,
+    space: 3000,
+  },
 ];

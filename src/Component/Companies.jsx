@@ -1,20 +1,25 @@
-import styled from '@emotion/styled'
-import { Box, Container } from '@mui/system'
-import React from 'react'
+import { Box, Container, styled, Typography } from "@mui/material";
+import React from "react";
 import logoImg from "../media/logo.png";
 import starsImg from "../media/Star.png";
 import logosImg from "../media/logos.png";
-import { Typography } from '@mui/material';
 
 const Companies = () => {
     const CustomContainer = styled(Container)(({ theme }) => ({
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-    }))
+        display: "flex",
+        justifyContent: "space-between",
+        [theme.breakpoints.down('md')]:{
+            flexDirection: "column",
+            alignItems: "center",
+            textAlign: "center",
+            marginBottom: theme.spacing(4)
+        }
+      }));
 
     const CustomBox = styled(Box)(({ theme }) => ({
-
+        [theme.breakpoints.down('md')]:{
+            marginBottom: theme.spacing(4)
+        }
     }))
 
     return (
